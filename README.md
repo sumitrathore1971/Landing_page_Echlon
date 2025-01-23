@@ -85,16 +85,19 @@
   <p>Below are some screenshots of the website (add your images here):</p>
   <ul>
     <li>Hero Section</li>
-    <img src="path-to-your-hero-section-image" alt="Hero Section" width="100%">
-
+    <img src="Assets/Screenshot 2025-01-23 152929.png" alt="Hero Section" width="100%">
+    <>
     <li>About Us Section</li>
-    <img src="path-to-your-about-us-section-image" alt="About Us Section" width="100%">
-
+    <img src="Assets/Screenshot 2025-01-23 152940.png" alt="About Us Section" width="100%">
+.
     <li>Events Section</li>
-    <img src="path-to-your-events-section-image" alt="Events Section" width="100%">
-
+    <img src="Assets/Screenshot 2025-01-23 152955.png" alt="Events Section" width="100%">
+.
     <li>Team Section</li>
-    <img src="path-to-your-team-section-image" alt="Team Section" width="100%">
+    <img src="Assets/Screenshot 2025-01-23 153016.png" alt="Team Section" width="100%">
+.
+    <li>Team Section</li>
+    <img src="Assets/Screenshot 2025-01-23 153016.png" alt="Team Section" width="100%">
   </ul>
 
   <hr>

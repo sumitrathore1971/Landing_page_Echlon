@@ -95,9 +95,5 @@
 .
     <li>Team Section</li>
     <img src="Assets/Screenshot 2025-01-23 153016.png" alt="Team Section" width="100%">
-.
-    <li>Team Section</li>
-    <img src="Assets/Screenshot 2025-01-23 153016.png" alt="Team Section" width="100%">
-  </ul>
 
   <hr>

@@ -80,3 +80,21 @@
   <p>Provides quick links to navigation, social media handles, and contact details. Simple and informative design.</p>
 
   <hr>
+
+<h2 id="screenshots">📸 Screenshots</h2>
+  <p>Below are some screenshots of the website (add your images here):</p>
+  <ul>
+    <li>Hero Section</li>
+    <img src="path-to-your-hero-section-image" alt="Hero Section" width="100%">
+
+    <li>About Us Section</li>
+    <img src="path-to-your-about-us-section-image" alt="About Us Section" width="100%">
+
+    <li>Events Section</li>
+    <img src="path-to-your-events-section-image" alt="Events Section" width="100%">
+
+    <li>Team Section</li>
+    <img src="path-to-your-team-section-image" alt="Team Section" width="100%">
+  </ul>
+
+  <hr>

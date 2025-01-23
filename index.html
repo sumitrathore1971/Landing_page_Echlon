@@ -18,6 +18,11 @@
       crossorigin="anonymous"
     ></script>
     <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      rel="stylesheet"
+    />
+
+    <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
       integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
@@ -43,7 +48,8 @@
     <nav class="sticky-top">
       <a href="#about">About</a>
       <a href="#events">Events</a>
-      <a href="#benefits">Benefits</a>
+      <a href="#why-join-us">Benefits</a>
+      <a href="#team">Team</a>
       <a href="#contact">Contact</a>
       <a href="" class="btn btn-outline-light button">Join Us</a>
     </nav>
@@ -51,7 +57,11 @@
     <section class="hero">
       <div>
         <div class="hero-img">
-          <img src="Assets/icon.jpg" style="height: 250px; border: 1px solid black; border-radius: 50%;" alt="" />
+          <img
+            src="Assets/icon.jpg"
+            style="height: 250px; border: 1px solid black; border-radius: 50%"
+            alt=""
+          />
         </div>
         <h2>Where Innovation Meets Code</h2>
         <p>
@@ -62,41 +72,369 @@
       </div>
     </section>
 
-    <section id="about" class="section">
-      <h3>About Us</h3>
-      <p>
-        We are a community passionate about hackathons and building creative
-        solutions.
-      </p>
-    </section>
-
-    <section id="events" class="section">
-      <h3>Upcoming Events</h3>
-      <div class="cards">
-        <div class="card">
-          <h4>Hackathon 2025</h4>
-          <p>Date: March 15-16, 2025</p>
-          <p>Theme: AI & Sustainability</p>
+    <section id="about" class="about-section py-5 bg-light">
+      <div class="container">
+        <div class="row align-items-center">
+          <!-- Text Content -->
+          <div class="col-lg-6 mb-4">
+            <h2 class="section-title">Welcome to Echelon Dev Society</h2>
+            <p class="section-description">
+              The official tech club of Chameli Devi Group of Institutions (CDGI). We are a community of innovators and tech enthusiasts dedicated to inspiring, educating, and empowering students to thrive in the ever-evolving world of technology.
+            </p>
+            <ul class="about-list">
+              <li><strong>Hackathons:</strong> Solve real-world challenges with creativity and innovation.</li>
+              <li><strong>Expert Talks:</strong> Gain insights from industry leaders.</li>
+              <li><strong>Mentorship Programs:</strong> Get guidance from experienced professionals to boost your skills.</li>
+              <li><strong>Workshops and Projects:</strong> Hands-on learning and collaboration on impactful projects.</li>
+            </ul>
+          </div>
+    
+          <!-- Image -->
+          <div class="col-lg-6">
+            <img src="Assets/teamwork.jpg" alt="Echelon Dev Society" class="img-fluid rounded shadow">
+          </div>
         </div>
-        <div class="card">
-          <h4>Innovators' Meetup</h4>
-          <p>Date: April 10, 2025</p>
-          <p>Theme: Future Tech</p>
+      </div>
+    </section>
+    
+
+    <section id="events" class="events-section">
+      <div class="container">
+        <h2 class="section-title">Our Events & Projects</h2>
+        <p class="section-description">
+          Explore the exciting activities and innovative projects organized by
+          Echelon Dev Society.
+        </p>
+
+        <div class="events-grid">
+          <div class="event-card">
+            <img
+              src="Assets/hackwavee_logo.jpg"
+              alt="Event 1"
+              class="event-image"
+            />
+            <h3 class="event-title">Hackwave Hackathon</h3>
+            <p class="event-description">
+              An annual hackathon where creativity meets technology. Join us to
+              solve real-world challenges.
+            </p>
+            <a href="#" class="event-link">Learn More</a>
+          </div>
+
+          <div class="event-card">
+            <img
+              src="Assets/tech_talks_logo.jpg"
+              alt="Event 2"
+              class="event-image"
+            />
+            <h3 class="event-title">Tech Talks</h3>
+            <p class="event-description">
+              Interactive sessions with industry leaders to enhance your
+              technical knowledge and skills.
+            </p>
+            <a href="#" class="event-link">Learn More</a>
+          </div>
+
+          <div class="event-card">
+            <img
+              src="Assets/opensoucres.jpg"
+              alt="Event 3"
+              class="event-image"
+            />
+            <h3 class="event-title">Open Source Sprint</h3>
+            <p class="event-description">
+              Contribute to open-source projects and learn about collaborative
+              development.
+            </p>
+            <a href="#" class="event-link">Learn More</a>
+          </div>
         </div>
       </div>
     </section>
 
-    <section id="benefits" class="section">
-      <h3>Why Join Us?</h3>
-      <p>
-        Access exclusive resources, mentorship, and opportunities to grow your
-        skills.
-      </p>
+    
+    <section id="why-join-us" class="py-5 bg-white">
+      <div class="container">
+        <div class="text-center mb-5">
+          <h2 class="section-title">Why Join Us?</h2>
+          <p class="section-description">Explore the opportunities and benefits that come with being a part of Echelon Dev Society.</p>
+        </div>
+    
+        <div class="row g-4">
+          <!-- Card 1 -->
+          <div class="col-md-6 col-lg-4">
+            <div class="card h-100 shadow-sm">
+              <div class="card-body">
+                <h5 class="card-title text-primary">Real-World Exposure</h5>
+                <p class="card-text">Participate in hackathons and projects that address real-world challenges, pushing your creativity and innovation to the next level.</p>
+              </div>
+            </div>
+          </div>
+    
+          <!-- Card 2 -->
+          <div class="col-md-6 col-lg-4">
+            <div class="card h-100 shadow-sm">
+              <div class="card-body">
+                <h5 class="card-title text-primary">Learn from Experts</h5>
+                <p class="card-text">Gain insights and knowledge through talks and workshops led by industry professionals and thought leaders.</p>
+              </div>
+            </div>
+          </div>
+    
+          <!-- Card 3 -->
+          <div class="col-md-6 col-lg-4">
+            <div class="card h-100 shadow-sm">
+              <div class="card-body">
+                <h5 class="card-title text-primary">Collaborative Environment</h5>
+                <p class="card-text">Network and collaborate with peers who share your passion for technology and innovation, building lifelong connections.</p>
+              </div>
+            </div>
+          </div>
+    
+          <!-- Card 4 -->
+          <div class="col-md-6 col-lg-6">
+            <div class="card h-100 shadow-sm">
+              <div class="card-body">
+                <h5 class="card-title text-primary">Skill Development</h5>
+                <p class="card-text">Boost both your technical and professional skills through mentorship programs and hands-on learning opportunities.</p>
+              </div>
+            </div>
+          </div>
+    
+          <!-- Card 5 -->
+          <div class="col-md-6 col-lg-6">
+            <div class="card h-100 shadow-sm">
+              <div class="card-body">
+                <h5 class="card-title text-primary">Build Your Portfolio</h5>
+                <p class="card-text">Work on exciting, impactful projects that showcase your talent and help you stand out in your resume or portfolio.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+
+    <section id="team" class="team-section">
+      <div class="container">
+        <h2 class="section-title">Meet Our Team</h2>
+        <p class="section-description">
+          Get to know the talented individuals behind Echelon Dev Society.
+        </p>
+
+        <div class="team-grid">
+          <!-- Team Member 1 -->
+          <div class="team-card">
+            <img
+              src="Assets/anirudh.jpg"
+              alt="Team Member 1"
+              class="team-image"
+            />
+            <h3 class="team-name">Aniruddh Dubge</h3>
+            <p class="team-role">President</p>
+            <p class="team-bio">
+              A passionate leader driving innovation and collaboration in our
+              club.
+            </p>
+            <div class="team-socials">
+              <a
+                href="https://www.linkedin.com/in/aniruddhdubge/"
+                class="social-link"
+                ><i class="fab fa-linkedin"></i
+              ></a>
+              <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+
+          <!-- Team Member 2 -->
+          <div class="team-card">
+            <img
+              src="Assets/jigyarth.jpg"
+              alt="Team Member 2"
+              class="team-image"
+            />
+            <h3 class="team-name">Jigyarth Sharma</h3>
+            <p class="team-role">Vice President</p>
+            <p class="team-bio">
+              Committed to fostering technical excellence and teamwork.
+            </p>
+            <div class="team-socials">
+              <a
+                href="https://www.linkedin.com/in/jigyarth/"
+                class="social-link"
+                ><i class="fab fa-linkedin"></i
+              ></a>
+              <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+
+          <!-- Team Member 3 -->
+          <div class="team-card">
+            <img
+              src="Assets/atharva.jpg"
+              alt="Team Member 3"
+              class="team-image"
+            />
+            <h3 class="team-name">Atharva Raj Thakur</h3>
+            <p class="team-role">Event Coordinator</p>
+            <p class="team-bio">
+              Bringing ideas to life by organizing engaging events for the
+              community.
+            </p>
+            <div class="team-socials">
+              <a
+                href="https://www.linkedin.com/in/atharvarajthakur/"
+                class="social-link"
+                ><i class="fab fa-linkedin"></i
+              ></a>
+              <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
-    <footer>
-      <p>&copy; 2025 Hackathon Community. All rights reserved.</p>
-      <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+    <section id="contact" class="py-5 bg-light">
+      <div class="container">
+        <h2 class="text-center mb-4">Contact Us</h2>
+        <p class="text-center mb-5">
+          Feel free to reach out to Echelon Dev Society for any queries or
+          collaborations.
+        </p>
+
+        <div class="row justify-content-center">
+          <!-- Contact Form -->
+          <div class="col-md-8">
+            <form>
+              <div class="mb-3">
+                <label for="name" class="form-label">Your Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="name"
+                  placeholder="Enter your name"
+                  required
+                />
+              </div>
+
+              <div class="mb-3">
+                <label for="email" class="form-label">Your Email</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  placeholder="Enter your email"
+                  required
+                />
+              </div>
+
+              <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea
+                  class="form-control"
+                  id="message"
+                  rows="5"
+                  placeholder="Write your message here..."
+                  required
+                ></textarea>
+              </div>
+
+              <div class="d-grid">
+                <button type="submit" class="btn btn-primary">
+                  Send Message
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <div class="row mt-5">
+          <div class="col-md-4 text-center">
+            <a href="https://www.cdgi.edu.in/"
+              ><i class="fas fa-map-marker-alt fa-2x mb-2 text-primary"></i
+            ></a>
+            <p>Chameli Devi Group of Institutions, Indore</p>
+          </div>
+          <div class="col-md-4 text-center">
+            <i class="fas fa-envelope fa-2x mb-2 text-primary"></i>
+            <p>echelondevsociety@cdgi.edu</p>
+          </div>
+          <div class="col-md-4 text-center">
+            <i class="fas fa-phone fa-2x mb-2 text-primary"></i>
+            <p>+91 9876543210</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer bg-dark text-white py-4">
+      <div class="container">
+        <div class="row">
+          <!-- About Section -->
+          <div class="col-md-4 mb-3">
+            <h5 class="footer-title">Echelon Dev Society</h5>
+            <p class="footer-description">
+              The official hackathon club of Chameli Devi Group of Institutions,
+              fostering innovation and collaboration.
+            </p>
+          </div>
+
+          <!-- Quick Links -->
+          <div class="col-md-4 mb-3">
+            <h5 class="footer-title">Quick Links</h5>
+            <ul class="list-unstyled">
+              <li>
+                <a href="#about" class="text-white text-decoration-none"
+                  >About</a
+                >
+              </li>
+              <li>
+                <a href="#events" class="text-white text-decoration-none"
+                  >Events</a
+                >
+              </li>
+              <li>
+                <a href="#team" class="text-white text-decoration-none">Team</a>
+              </li>
+              <li>
+                <a href="#contact" class="text-white text-decoration-none"
+                  >Contact Us</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <!-- Social Media -->
+          <div class="col-md-4">
+            <h5 class="footer-title">Follow Us</h5>
+            <div class="d-flex gap-3" style="padding-left: 9rem">
+              <a href="#" class="text-white"
+                ><i class="fab fa-facebook fa-lg"></i
+              ></a>
+              <a href="#" class="text-white"
+                ><i class="fab fa-twitter fa-lg"></i
+              ></a>
+              <a href="#" class="text-white"
+                ><i class="fab fa-linkedin fa-lg"></i
+              ></a>
+              <a href="#" class="text-white"
+                ><i class="fab fa-github fa-lg"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+
+        <hr class="bg-white" />
+
+        <div class="text-center">
+          <p class="mb-0">
+            &copy; 2025 Echelon Dev Society. All Rights Reserved.
+          </p>
+        </div>
+      </div>
     </footer>
 
     <script src="app.js"></script>

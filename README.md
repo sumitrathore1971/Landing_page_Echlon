@@ -89,13 +89,13 @@
     <>
     <li>About Us Section</li>
     <img src="Assets/Screenshot 2025-01-23 152940.png" alt="About Us Section" width="100%">
-
+.
     <li>Events Section</li>
     <img src="Assets/Screenshot 2025-01-23 152955.png" alt="Events Section" width="100%">
-
+.
     <li>Team Section</li>
     <img src="Assets/Screenshot 2025-01-23 153016.png" alt="Team Section" width="100%">
-
+.
     <li>Team Section</li>
     <img src="Assets/Screenshot 2025-01-23 153016.png" alt="Team Section" width="100%">
   </ul>
